@@ -1,0 +1,23 @@
+body {
+  background-color: #282c34;
+}
+
+h1 {
+  font-size: 52px;
+  text-align: center;
+  color: #61dafb;
+}
+
+ul {
+  margin: auto;
+  width: 10%;
+  border-radius: 10px;
+  border: 2px solid #6b61fb;
+  background-color: #61dafb;
+}
+
+li {
+  font-size: 20px;
+  font-style: italic;
+  color: #6b61fb;
+}
