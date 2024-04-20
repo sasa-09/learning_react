@@ -1,15 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style.css'
-import Counter from './Counter'
-import DateTime from './DateTime';
+
+function Hero () {
+    return (
+        <>
+          <h1>Добро пожаловать в наш магазин</h1>
+          <p>Начать покупки!</p>
+        </>
+    )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <>
-      <Counter />
-      <DateTime />
+        <Hero />
     </>
 );
 
