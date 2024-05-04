@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+main {
+	display: flex;
+	margin: 10vh 25vw;
+}
+form {
+	width: 50vw;
+	height: 70vh;
+	background-color: #3a4150;
+	border: 2px solid #000000;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+label {
+	font-size: 20px;
+}
+input, select {
+	text-align: center;
+	width: 30vw;
+	height: 5vh;
+	border-radius: 50px;
+	border: 2px solid #000000;
+	font-size: 20px;
+}
+.button_shell {
+	width: 30vw;
+	display: flex;
+	justify-content: space-between;
+}
+button {
+	width: 14.5vw;
+	height: 5vh;
+	border: none;
+	border-radius: 50px;
+	font-size: 16px;
+	background-color: #01d6fc;
+	color: #000000;
+}

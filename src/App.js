@@ -1,12 +1,9 @@
-import Welcome from './Welcome'
+import Form from "./components/jsx/Form"
 
 export default function App () {
     return (
         <>
-          <Welcome name="Саша" />
-          <Welcome name="Илья" />
-          <Welcome name="Егор" />
-          <Welcome name="Коля" />
+          <Form />
         </>
     )
 }

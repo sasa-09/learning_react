@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #282c34;
+}
+
+header {
+  background-color: #3a4150;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 7.5vh;
+  border-bottom: 2px solid #000000;
+}
+
+.header_container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 100%;
+}
+
+.login {
+  width: 10vw;
+  height: 70%;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  background-color: #01d6fc;
+  color: #000000;
+}
